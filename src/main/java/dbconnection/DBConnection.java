@@ -6,7 +6,7 @@ public class DBConnection {
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/project-jdbc", "root", "1234");
-        // Statement statement = connection.createStatement();
+         Statement statement = connection.createStatement();
        /* statement.executeUpdate("CREATE TABLE students (\n" +
                 "    id INT AUTO_INCREMENT PRIMARY KEY,\n" +
                 "    name VARCHAR(100) NOT NULL,\n" +
@@ -24,14 +24,13 @@ public class DBConnection {
                 "('Murad', 'Quliyev', 19),\n" +
                 "('Aysel', 'Mammadova', 21)");*/
 
-       /*ResultSet resultSet = statement.executeQuery("select * from students");
+       ResultSet resultSet = statement.executeQuery("select * from students");
         while (resultSet.next()) {
             String name = resultSet.getString("name");
             String surname = resultSet.getString("surname");
             int age = resultSet.getInt("age");
             System.out.println(name + "" + surname + "" + age);
-        }*/
-
+        }
 
         PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO students (id,name, surname, age) VALUES (?, ?, ?,?)");
         preparedStatement.setInt(1, 5); // Üçüncü parametr üçün 3 indeks olmalıdır
