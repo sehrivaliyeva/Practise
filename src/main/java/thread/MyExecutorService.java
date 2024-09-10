@@ -20,5 +20,6 @@ public class MyExecutorService {
         // eger threadlarden her hansi biri isini bitiribse digerine komek ede biler
         Executor steal = Executors.newWorkStealingPool();
 
+
     }
 }
