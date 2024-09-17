@@ -7,6 +7,7 @@ public class CinemaHall {
     private int capacity;
     private String type;
 
+
     public int getId() {
         return id;
     }
