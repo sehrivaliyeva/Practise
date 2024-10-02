@@ -1,4 +1,4 @@
-package algoritm;
+package algoritmarray;
 
 import java.util.Arrays;
 

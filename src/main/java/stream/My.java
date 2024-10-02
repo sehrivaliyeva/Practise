@@ -14,7 +14,7 @@ public class My {
 
         //paralel stream da bir nece threadin eyni anda islemesine komek edir stream ureinde
 
-//flatMap() ic ice olan yuxaridaki listleri bir lost halina getirir
+//flatMap() ic ice olan yuxaridaki listleri bir list halina getirir
         List<String> stream = lists.stream().flatMap(list -> list.stream()).collect(Collectors.toList());
         System.out.println(stream);
 

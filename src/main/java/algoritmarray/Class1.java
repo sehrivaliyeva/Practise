@@ -1,4 +1,4 @@
-package algoritm;
+package algoritmarray;
 
 import java.util.HashSet;
 import java.util.Set;

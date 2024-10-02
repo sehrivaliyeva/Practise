@@ -1,4 +1,4 @@
-package algoritm;
+package algoritmarray;
 
 public class Class5 {
     public static void main(String[] args) {
@@ -12,7 +12,6 @@ public class Class5 {
         }
 
         System.out.println("max element " + max);
-
 
         //minimum elementi tapmaq
         int[] arr1 = {2, -8,5, 4,0, 7, 9, 784, 1};

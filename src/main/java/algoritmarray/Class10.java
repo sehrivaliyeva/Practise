@@ -1,4 +1,4 @@
-package algoritm;
+package algoritmarray;
 
 public class Class10 {
     public static void main(String[] args) {
@@ -41,6 +41,8 @@ public class Class10 {
         for (int element : arr2) {
             System.out.println(element);
         }
+
+
 
     }
 }

@@ -1,8 +1,6 @@
-package algoritm;
+package algoritmarray;
 
 public class Class3 {
-
-
     public static void main(String[] args) {
         int eded1 = 0;
         int eded2 = 1;
