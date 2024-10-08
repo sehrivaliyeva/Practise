@@ -5,10 +5,10 @@ public class Class9 {
         //bir eded sirali array verilir ve n eded verilir n ededinin bu arrayde nece defe kecdiyini hesabla
 
         int arr[] = {1, 1, 4, 4, 4, 5, 5, 5};
-        int n = 1;
+        int n = 5;
         int count=0;
          for( int i=0; i<arr.length;i++){
-             if(arr[i]==4){
+             if(arr[i]==n){
                  count++;
              }
          }

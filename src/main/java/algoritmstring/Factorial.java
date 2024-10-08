@@ -14,4 +14,5 @@ public class Factorial {
         int result = factorial(num);
         System.out.println(num + "! = " + result); // Çıxış: 5! = 120
     }
+
 }
