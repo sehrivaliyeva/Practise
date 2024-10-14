@@ -26,7 +26,7 @@ public class Class18 {
            }
         }
 
-        //HELLINE MUTLEQ BAXX GOOGLEDE VAR ELE KODLARIN OLDUGU YERDE
+
 
     }
 }
