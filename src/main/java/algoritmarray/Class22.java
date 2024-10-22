@@ -2,7 +2,7 @@ package algoritmarray;
 
 public class Class22 {
     public static void main(String[] args) {
-        //bir dene eded verilib ve verilmis arrayin subarrayinin elementlerinin cemi hemin edece beraberidr/
+        //bir dene eded verilib ve verilmis arrayin subarrayinin elementlerinin cemi hemin edede beraberidr/
         //hemin subarrayi tapin
 
         int eded = 1;
